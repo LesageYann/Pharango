@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AranAbstractConnector",
+	"category" : "Arango-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AranDatabaseManager",
+	"type" : "normal"
+}

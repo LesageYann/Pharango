@@ -1,0 +1,3 @@
+accessing
+reconnexionNeeded
+	AranConnexionFailure signal

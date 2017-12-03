@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Arango-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"znClient",
+		"user",
+		"responseHandler"
+	],
+	"name" : "AranAbstractConnector",
+	"type" : "normal"
+}

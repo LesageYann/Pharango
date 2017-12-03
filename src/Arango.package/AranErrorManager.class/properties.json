@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Arango-Core",
+	"classinstvars" : [
+		"errors"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AranErrorManager",
+	"type" : "normal"
+}

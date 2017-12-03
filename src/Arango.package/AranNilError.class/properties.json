@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AranError",
+	"category" : "Arango-Errors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AranNilError",
+	"type" : "normal"
+}
