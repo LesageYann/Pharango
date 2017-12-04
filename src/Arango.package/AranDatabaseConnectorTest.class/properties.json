@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AranDatabaseManagerTest",
+	"name" : "AranDatabaseConnectorTest",
 	"type" : "normal"
 }

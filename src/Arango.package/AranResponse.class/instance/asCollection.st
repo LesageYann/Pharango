@@ -1,3 +1,3 @@
 converting
 asCollection
-	^ response at: #result
+	^ self asCollectionAt: #result
