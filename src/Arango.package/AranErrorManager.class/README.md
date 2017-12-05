@@ -1,0 +1,1 @@
+I manage error returning by the connector. 

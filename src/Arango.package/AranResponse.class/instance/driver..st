@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 driver: aranAbstractConnector 
 	driver:= aranAbstractConnector 

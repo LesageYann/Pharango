@@ -1,0 +1,1 @@
+I am a array of AranEntity. You should never create me directly but use a query for this.

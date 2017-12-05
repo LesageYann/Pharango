@@ -1,0 +1,1 @@
+I am an abstract proxy. I manage the storage of information and keep a link with the driver.

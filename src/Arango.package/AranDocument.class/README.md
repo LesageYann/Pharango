@@ -1,0 +1,1 @@
+I am a proxy who represent an entity in base.  You should never create me directly but use a query for this.

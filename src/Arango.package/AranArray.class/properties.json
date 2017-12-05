@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "YannLesage 12/5/2017 22:14",
+	"super" : "Array",
+	"category" : "Arango-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"driver"
+	],
+	"name" : "AranArray",
+	"type" : "variable"
+}

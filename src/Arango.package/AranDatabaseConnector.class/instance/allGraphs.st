@@ -5,4 +5,4 @@ allGraphs
 		path: self baseUrl , '/_api/gharial';
 		entity: (ZnEntity with: '');
 		get.
-	^ self handleResponse: self znClient at: #graphs
+	^ self handleResponse: self znClient 

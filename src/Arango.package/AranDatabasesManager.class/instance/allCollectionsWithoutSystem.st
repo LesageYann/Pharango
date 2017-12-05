@@ -1,4 +1,4 @@
-as yet unclassified
+query
 allCollectionsWithoutSystem
 	self znClient
 	   headerAt: #Authorization put: self user jwt;

@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
+	"commentStamp" : "YannLesage 12/5/2017 22:18",
+	"super" : "AranEntity",
 	"category" : "Arango-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

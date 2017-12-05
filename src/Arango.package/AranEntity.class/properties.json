@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "YannLesage 12/5/2017 22:17",
 	"super" : "Object",
 	"category" : "Arango-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"dictionary",
 		"driver"
 	],
-	"name" : "AranResponseHandler",
+	"name" : "AranEntity",
 	"type" : "normal"
 }
