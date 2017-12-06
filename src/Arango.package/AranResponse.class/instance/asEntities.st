@@ -1,3 +1,6 @@
 converting
 asEntities
-	^ self collectionClass from: (response at: #result) as: self entityClass driver: self driver
+	^ self collectionClass
+		from: (response at: #result)
+		as: self entityClass
+		driver: self driver

@@ -1,11 +1,9 @@
-as yet unclassified
+ssl
 connect
-	| response|
-	self znClient 
-	path: '/_open/auth';
-		entity:
-			(ZnEntity
-				with: self user asJson);
+	| response |
+	self znClient
+		path: '/_open/auth';
+		entity: (self znEntityFrom: self user);
 		post.
 	response := NeoJSONReader fromString: self znClient response contents.
 	self user jwt: (response at: #jwt)
