@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "Arango-Tests-Core",
+	"super" : "AranAbstractConnectorTest",
+	"category" : "Arango-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AranAbstractConnectorTest",
+	"name" : "AranDatabaseConnectorTest",
 	"type" : "normal"
 }

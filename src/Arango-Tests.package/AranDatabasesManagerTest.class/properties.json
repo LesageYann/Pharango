@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "AranAbstractConnectorTest",
-	"category" : "Arango-Tests-Core",
+	"category" : "Arango-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

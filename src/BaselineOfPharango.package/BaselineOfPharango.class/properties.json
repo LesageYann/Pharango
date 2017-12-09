@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "CyrilFerlicot 12/8/2017 23:59",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfPharango",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfPharango",
+	"type" : "normal"
+}
