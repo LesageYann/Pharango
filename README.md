@@ -52,13 +52,13 @@ base execute: 'INSERT {"_from":"contributors/jecisc","_to":"contributors/valtena
 
 ### Before April 2018
 
-Use http API to create/modify/remove document and not only use AQL query for this.
-Use http API to create/modify/remove edge and not only use AQL query for this.
-add graph usage.
-use query cursor to not load all results in one time.
-add Travis CI to run test.
+- Use http API to create/modify/remove document and not only use AQL query for this.
+- Use http API to create/modify/remove edge and not only use AQL query for this.
+- Add graph usage.
+- Use query cursor to not load all results in one time.
+- Add Travis CI to run test.
 
 ### Later
-add install Arango script.
-add asynchrone query. 
-Use arango shell for local database.
+- Add install Arango script.
+- Add asynchrone query. 
+- Use arango shell for local database.
