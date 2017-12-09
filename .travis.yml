@@ -1,0 +1,10 @@
+language: smalltalk
+os:
+  - linux
+  - osx
+before_script: 
+  - ./utils/setup_arangodb_3.2.9.sh
+smalltalk:
+  - Pharo-7.0
+  - Pharo-6.1
+  - Pharo-5.0
