@@ -5,18 +5,22 @@ A  http connector for Pharo and arango db.
 
 Install on Pharo >= 5
 
+```Smalltalk
 	Metacello new
 		repository: 'github://Valtena/Pharango:master/src';
 		baseline: 'Pharango';
 		load
+```
 
 To add dependency in your project baseline :
 
+```Smalltalk
 	spec
 		baseline: 'Pharango'
 		with: [ spec repository: 'github://Valtena/Pharango:master/src' ]
+```
 
-Note that you can replace the `master` by another branch as `developmen` or a tag as `v1.0.0` or `v1.x.x`.
+Note that you can replace the `master` by another branch as `development` or a tag as `v1.0.0` or `v1.x.x`.
 
 Install on Pharo < 5
 
@@ -24,7 +28,7 @@ Install on Pharo < 5
 
 ## Usage
 
-```
+```Smalltalk
 manager := AranDatabasesManager host: 'http://127.0.0.1:8529' username: 'test' password: 'test'.
 
 manager createDatabase: 'users'.
@@ -46,7 +50,7 @@ base execute: 'INSERT {"_from":"contributors/jecisc","_to":"contributors/valtena
 
 ## Roadmap
 
-###Before April 2018
+### Before April 2018
 
 Use http API to create/modify/remove document and not only use AQL query for this.
 Use http API to create/modify/remove edge and not only use AQL query for this.
