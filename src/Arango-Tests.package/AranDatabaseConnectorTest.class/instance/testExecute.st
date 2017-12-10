@@ -1,7 +1,10 @@
 tests
 testExecute
-	| res |
-	res := ((AranDatabaseConnector host: 'http://127.0.0.1:8529' user: 'test' password: 'test')
-		execute: 'FOR v IN hello_foxx_texts return v') asEntities.
-	self assert: res size equals: 7.
-	self assert: (res first _id beginsWith: 'hello_foxx_texts/') equals: true
+	| base res |
+	base := AranDatabaseConnector host: 'http://127.0.0.1:8529' user: 'test' password: 'test'.
+	base createDocumentsCollection: 'test'.
+	res := (base execute: 'INSERT { name: "entity", _key: "6565" } IN test return NEW')
+		asEntity.
+	self assert: (res at: 'name') equals: 'entity'.
+	self assert: (res at: '_key') equals: '6565'.
+	base deleteCollection: 'test'.
