@@ -6,4 +6,4 @@ connect
 		entity: (self znEntityFrom: self user);
 		post.
 	response := NeoJSONReader fromString: self znClient response contents.
-	self user jwt: (response at: #jwt)
+	self user jwt: (response at: #jwt ifAbsent: '')
