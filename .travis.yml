@@ -6,6 +6,5 @@ before_script:
 smalltalk:
   - Pharo-7.0
   - Pharo-6.1
-  - Pharo-5.0
 allow_failures:
   - Pharo-7.0

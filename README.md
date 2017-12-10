@@ -1,9 +1,11 @@
-# Pharango
+# Pharango ![](https://travis-ci.org/Valtena/Pharango.svg?branch=master)
 A  http connector for Pharo and arango db.
+
+tested on pharo >= 6.1 and Arango >= 3.1
 
 ## Installation
 
-Install on Pharo >= 5
+Install on Pharo >= 6.1
 
 ```Smalltalk
 	Metacello new
