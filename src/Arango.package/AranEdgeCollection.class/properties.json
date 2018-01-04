@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "YannLesage 12/10/2017 14:52",
+	"super" : "AranCollection",
+	"category" : "Arango-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AranEdgeCollection",
+	"type" : "normal"
+}
