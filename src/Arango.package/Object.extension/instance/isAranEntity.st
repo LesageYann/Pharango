@@ -1,0 +1,3 @@
+*Arango
+isAranEntity
+	^ false

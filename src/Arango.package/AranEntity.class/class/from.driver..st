@@ -1,6 +1,8 @@
 instance creation
 from: aCollection driver: anAranResponse
-	^ self new
-		dictionary: aCollection;
-		driver: anAranResponse;
-		yourself
+	aCollection isDictionary
+		ifTrue: [ ^ self new
+				dictionary: aCollection;
+				driver: anAranResponse;
+				yourself ]
+		ifFalse: [ "it's a value" ^ aCollection ]
