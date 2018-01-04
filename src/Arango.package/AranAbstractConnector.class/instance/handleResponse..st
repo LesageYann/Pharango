@@ -1,4 +1,4 @@
-as yet unclassified
-handleResponse: aZnClient 
-     aZnClient entity: nil.
-	^ (AranResponse response: aZnClient response) driver: self 
+query
+handleResponse: aZnClient
+	aZnClient entity: nil.
+	^ (self responseClass response: aZnClient response) driver: self
